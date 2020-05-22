@@ -8,7 +8,7 @@ body {
 
 .ching-container {
   display: grid;
-  grid-template-columns: 2.5fr 1fr 2.5fr;
+  grid-template-columns: 2.78fr 1fr 2.78fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   row-gap: 50px;
   width: 550px;
