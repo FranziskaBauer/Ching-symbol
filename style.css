@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.ching-container {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 2.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+  width: 550px;
+  }
+
+.row {
+  background-color: black;
+  height: 50px;
+}
+
+/*style the middle row*/
+.white-2, .white-3, .white-4, .white-5, .white-6 {
+  background-color: white;
+}
